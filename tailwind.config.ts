@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -84,11 +85,96 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(20px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'fade-in-right': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateX(20px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateX(0)'
+					}
+				},
+				'fade-in-left': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateX(-20px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateX(0)'
+					}
+				},
+				'scale-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'scale(0.95)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'scale(1)'
+					}
+				},
+				'blur-in': {
+					'0%': {
+						opacity: '0',
+						filter: 'blur(8px)'
+					},
+					'100%': {
+						opacity: '1',
+						filter: 'blur(0)'
+					}
+				},
+				'float': {
+					'0%, 100%': {
+						transform: 'translateY(0)'
+					},
+					'50%': {
+						transform: 'translateY(-10px)'
+					}
+				},
+				'pulse-subtle': {
+					'0%, 100%': {
+						opacity: '1'
+					},
+					'50%': {
+						opacity: '0.85'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.7s ease-out',
+				'fade-in-right': 'fade-in-right 0.7s ease-out',
+				'fade-in-left': 'fade-in-left 0.7s ease-out',
+				'scale-in': 'scale-in 0.7s ease-out',
+				'blur-in': 'blur-in 0.7s ease-out',
+				'float': 'float 6s ease-in-out infinite',
+				'pulse-subtle': 'pulse-subtle 4s ease-in-out infinite'
+			},
+			fontFamily: {
+				sans: ['Heebo', 'sans-serif'],
+				display: ['Heebo', 'sans-serif']
+			},
+			boxShadow: {
+				'glass': '0 4px 30px rgba(0, 0, 0, 0.1)',
+				'neo': '5px 5px 10px #d1d9e6, -5px -5px 10px #ffffff',
+				'button': '0 4px 14px 0 rgb(0 118 255 / 39%)'
+			},
+			backdropBlur: {
+				'xs': '2px'
 			}
 		}
 	},
