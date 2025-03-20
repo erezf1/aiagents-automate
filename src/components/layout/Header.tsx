@@ -34,13 +34,17 @@ const Header = () => {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'py-3 bg-white/80 backdrop-blur-md shadow-sm'
-          : 'py-5 bg-transparent'
+          ? 'py-2 bg-white/80 backdrop-blur-md shadow-sm'
+          : 'py-4 bg-transparent'
       }`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="flex items-center">
-          <span className="text-xl font-bold text-primary">AiGents</span>
+          <img 
+            src="/lovable-uploads/2e75a01e-3760-4dbb-8119-697c392265dc.png" 
+            alt="סוכני בינה - Business AI Agents" 
+            className="h-12 md:h-14"
+          />
         </Link>
 
         {/* Desktop Navigation */}

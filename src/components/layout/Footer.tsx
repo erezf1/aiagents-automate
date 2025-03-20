@@ -12,7 +12,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">AiGents</h3>
+            <div className="mb-4">
+              <img 
+                src="/lovable-uploads/2e75a01e-3760-4dbb-8119-697c392265dc.png" 
+                alt="סוכני בינה - Business AI Agents" 
+                className="h-12"
+              />
+            </div>
             <p className="text-muted-foreground mb-4">
               אוטומציה חכמה שמנהלת משימות יומיומיות בעסק שלך – בלי להחליף את המערכות הקיימות.
             </p>
@@ -95,7 +101,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border mt-10 pt-6 text-center text-sm text-muted-foreground">
-          <p>© {currentYear} AiGents. כל הזכויות שמורות.</p>
+          <p>© {currentYear} סוכני בינה. כל הזכויות שמורות.</p>
         </div>
       </div>
     </footer>
