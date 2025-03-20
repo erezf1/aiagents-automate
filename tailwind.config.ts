@@ -171,7 +171,7 @@ export default {
 			boxShadow: {
 				'glass': '0 4px 30px rgba(0, 0, 0, 0.1)',
 				'neo': '5px 5px 10px #d1d9e6, -5px -5px 10px #ffffff',
-				'button': '0 4px 14px 0 rgb(0 118 255 / 39%)'
+				'button': '0 4px 14px 0 rgb(2 49 177 / 39%)'
 			},
 			backdropBlur: {
 				'xs': '2px'

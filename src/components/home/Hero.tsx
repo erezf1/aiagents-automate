@@ -11,8 +11,8 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-blue-50 to-white -z-10" />
       
       {/* Animated Background Elements */}
-      <div className="absolute top-20 right-10 w-64 h-64 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-float" />
-      <div className="absolute bottom-10 left-10 w-72 h-72 bg-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-float" style={{ animationDelay: '2s' }} />
+      <div className="absolute top-20 right-10 w-64 h-64 bg-blue-100 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-float" />
+      <div className="absolute bottom-10 left-10 w-72 h-72 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-float" style={{ animationDelay: '2s' }} />
       
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
