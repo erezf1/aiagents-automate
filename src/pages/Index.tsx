@@ -7,6 +7,7 @@ import Process from '@/components/home/Process';
 import WhyUs from '@/components/home/WhyUs';
 import Resources from '@/components/home/Resources';
 import ContactCTA from '@/components/home/ContactCTA';
+import AboutMe from '@/components/home/AboutMe';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 
@@ -24,6 +25,7 @@ const Index = () => {
         <AgentInfo />
         <UseCases />
         <Process />
+        <AboutMe />
         <WhyUs />
         <Resources />
         <ContactCTA />
